@@ -44,7 +44,7 @@ $(function(){
         .set(_bg, { scale:1, autoAlpha:0 })
         .set(_obj01, {x:0}).set(_obj02,{x:0})
         .set(_box04, {width: 0, x: 390})
-        .set(_contentBox, {y:20})
+        .set(_contentBox, {y:16})
         .to(_bg, 0.56, { ease: Power2.easeOut, scale:1, autoAlpha: 1 }, 0)
         .to(_obj01, 0.84, { ease: Power2.easeOut, x:-300 }, 0.2)
         .to(_obj02, 0.84, { ease: Power2.easeOut, x:300 }, 0.2)
